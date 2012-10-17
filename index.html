@@ -107,6 +107,12 @@
                     hr{
                         margin:10px 0;
                     }
+                    .agenda-time{
+	                    text-align: right;
+	                }
+	                .agenda-entry{
+		                margin-bottom: 10px;
+	                }
                     </style>
                 <!--link href="css/bootstrap-responsive.css" rel="stylesheet"-->
                     
@@ -285,16 +291,6 @@
                             
                             <div class="speaker">
                                 <div class="name">
-                                    <span>Akash Garg</span>
-                                    <br /><small>Engineering Manager, Twitter Growth Team</small>
-                                    <br /><small>Co-founder and CTO, Hi5, CTO, Bebo</small>
-                                </div>
-                                <img src="speakers/akash-garg.jpg" width="160" />
-                            </div>
-                            
-                            
-                            <div class="speaker">
-                                <div class="name">
                                     <span>Elliot Schmukler</span>
                                     <br /><small>LinkedIn Membership Growth Team</small>
                                     <br /><small>eBay, Microsoft</small>
@@ -321,6 +317,68 @@
                 
                 <br /><br />
                 <hr>
+                <h3 >Agenda</h3>
+                <div class="lead">
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">9:30-9:45</span>
+                	<span class="agenda-description span10">Erin & Gagan,<br /> Opening remarks</span>
+                </div>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">9:45-10:30</span>
+                	<span class="agenda-description span10">Chamath,<br /> <i>"Keynote: How we put Facebook on the path to 1 billion users"</i></span>
+                </div>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">10:30-11:15</span>
+                	<span class="agenda-description span10">Sean Ellis,<br /> <i>"Keynote: Building an Authentic, Effective Growth Engine for your Business"</i></span>
+                </div>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">11:15-12:15</span>
+                	<span class="agenda-description span10">Erin Turner (moderator),<br /> Panel: Growth for early stage startups: Danielle Morill, Hiten Shah, Gagan Biyani, Nabeel Hyatt</span>
+                </div>
+                <hr>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">12:15-1:15</span>
+                	<span class="agenda-description span10">Lunch</span>
+                </div>
+                <hr>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">1:15-1:45pm</span>
+                	<span class="agenda-description span10">Mike Greenfield,<br /> <i>"The art of A/B testing"</i></span>
+                </div>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">1:45-2:15pm</span>
+                	<span class="agenda-description span10">Aaron Batalion,<br /> <i>"Living Social: How we went from 0 to 60 million users in 5 years"</i></span>
+                </div>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">2:15-3:15pm</span>
+                	<span class="agenda-description span10">Aaron Ginn (moderator),<br /> Panel:Harnessing networks for distribution: Blake Commagre, Simon Tismenzky, Matt humphrey, Jesse Farmer</span>
+                </div>
+                <hr>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">3:15-3:30pm</span>
+                	<span class="agenda-description span10">Break</span>
+                </div>
+                <hr>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">3:30-4:30pm</span>
+                	<span class="agenda-description span10">Andrew Chen (moderator),<br /> Panel Growth on mobile:Eric Florenzano (Twitter), David Lieb (Bump), Linda Tong (Tap Joy)</span>
+                </div>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">4:30-5pm</span>
+                	<span class="agenda-description span10">Elliot Schmukler,<br /> <i>"Identifying which metrics to optimize: stories from LinkedIn and Paypal"</i></span>
+                </div>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">5pm-6pm</span>
+                	<span class="agenda-description span10">Jeremy Liew (moderator),<br /> Panel: Building a culture & skill set to get results: Josh Elman, Stan Chudnovsky*, Greg Tseng*</span>
+                </div>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">6-7:30pm</span>
+                	<span class="agenda-description span10">Erin & Gagan,<br /> Closing remarks & Happy Hour</span>
+                </div>
+                </div>
+	
+                <br />
+                <hr>
                 <footer>
                     <p>© Growth Hackers Conference 2012. Coded with love by <a href="http://www.ignaciobona.com/" target="_blank">Ignacio Bona</a></p>
                 </footer>
@@ -338,7 +396,7 @@
                                                         next:'a.speaker_next',
                                                         axis: 'x',
                                                         step: 1,
-                                                        offset: -658,
+                                                        offset:0,
                                                         start:2, //as we are centering it, start at the 2nd
                                                         duration:800,
                                                         force:true,
