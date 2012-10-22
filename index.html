@@ -113,6 +113,9 @@
 	                .agenda-entry{
 		                margin-bottom: 10px;
 	                }
+	                .lead.agenda{
+		                font-size: 18px;
+	                }
                     </style>
                 <!--link href="css/bootstrap-responsive.css" rel="stylesheet"-->
                     
@@ -132,8 +135,9 @@
                 <div class="container">
 					<span class="brand ">
 						Growth Hacker Conference
+						
 					</span>
-					
+					<small class="navbar-text">Brought to you by <a onclick="$.scrollTo('#cohosts-section',1000,{offset:-30});">Gagan Biyani</a> and <a onclick="$.scrollTo('#cohosts-section',1000,{offset:-30});">Erin Turner</a></small>
 					<div class="pull-right">	              
 						<a class="btn btn-primary" target="_blank" href="https://docs.google.com/spreadsheet/viewform?formkey=dF82TlVXSGxrSE4taDJHUWZIOGxWSlE6MQ#gid=0" >Volunteer</a>
 					</div>
@@ -216,7 +220,7 @@
                                 <div class="name">
                                     <span>Sean Ellis</span>
                                     <br /><small>Coined the term "<a href="http://startup-marketing.com/deconstructing-startup-growth/">Growth Hacker</a>"</small>
-                                    <br /><small>CatchFree, Dropbox, LogMeIn, Xobni</small>
+                                    <br /><small>Qualaroo, Dropbox, LogMeIn, Xobni</small>
                                 </div>
                                 <img src="speakers/sean-ellis.jpg" width="160" />
                             </div>
@@ -354,7 +358,28 @@
                                     <br /><small>Tapjoy; Google</small>
                                 </div>
                                 <img src="speakers/linda-tong.jpg" width="160" />
-                            </div>                               
+                            </div>
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Jeremy Liew</span>
+                                    <br /><small>Managing Director, Lightspeed Venture Partners; Netscape; AOL</small>
+                                </div>
+                                <img src="speakers/jeremy-liew.jpg" width="160" />
+                            </div>
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>ChenLi Wang</span>
+                                    <br /><small>Business Operations, Dropbox; Workday</small>
+                                </div>
+                                <img src="speakers/chenli-wang.jpg" width="160" />
+                            </div> 
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Yee Lee</span>
+                                    <br /><small>Co-founder and CTO, One Jackson; Google; Katango; Skype</small>
+                                </div>
+                                <img src="speakers/yee-lee.jpg" width="160" />
+                            </div>                                   
                             <div class="clear"></div>
                         </div>
                     </div>
@@ -373,24 +398,41 @@
                 </div>
                 
                 <br /><br />
+                <hr id="cohosts-section">
+                <h3 >Co-Hosts</h3>
+                <div class="row">
+	                <div class="span3">
+	                	<img src="speakers/gagan.jpg" class="img-polaroid" />
+	                </div>
+	                <div class="span3">
+	                	<p><b>Gagan Biyani</b> is a technology enthusiast and entrepreneur. He is co-founder of Udemy, a leading marketplace for online education that has been featured in Bill Gates' annual letter, the New York Times, the Today Show, and more than 50 other media outlets. Prior to leading user acquisition and business operations at Udemy, Gagan wrote for TechCrunch covering mobile technology. He has also held positions at Accenture and Microsoft.
+	                	</p>
+	                </div>
+	                <div class="span3">
+	                	<img src="speakers/erin-turner.jpg" class="img-polaroid" />
+	                </div>
+	                <div class="span3">
+	                	<p><b>Erin Turner</b> is an entrepreneur and product person in commerce, games, & social media. Currently she is product director at Wildfire (now a division of Google), the leading social media marketing platform. Previously Erin founded and led two startups (Crave and Gigabeat) and spent 8 years in the game industry at Electronic Arts (EA), Kixeye, and Trion Worlds.</p>
+	                </div>
+                </div>
                 <hr>
                 <h3 >Agenda</h3>
-                <div class="lead">
+                <div class="lead agenda">
                 <div class="agenda-entry row">
                 	<span class="agenda-time span2">9:30-9:45</span>
-                	<span class="agenda-description span10">Erin & Gagan,<br /> Opening remarks</span>
+                	<span class="agenda-description span10">Erin Turner & Gagan Biyani (conference co-hosts),<br /> Opening Remarks</span>
                 </div>
                 <div class="agenda-entry row">
                 	<span class="agenda-time span2">9:45-10:30</span>
-                	<span class="agenda-description span10">Chamath,<br /> <i>"Keynote: How we put Facebook on the path to 1 billion users"</i></span>
+                	<span class="agenda-description span10">Chamath Palihapitiya,<br /> Keynote: <i>"How we put Facebook on the path to 1 billion users"</i></span>
                 </div>
                 <div class="agenda-entry row">
                 	<span class="agenda-time span2">10:30-11:15</span>
-                	<span class="agenda-description span10">Sean Ellis,<br /> <i>"Keynote: Building an Authentic, Effective Growth Engine for your Business"</i></span>
+                	<span class="agenda-description span10">Sean Ellis,<br /> Keynote: <i>"Building an Authentic, Effective Growth Engine for your Business"</i></span>
                 </div>
                 <div class="agenda-entry row">
                 	<span class="agenda-time span2">11:15-12:15</span>
-                	<span class="agenda-description span10">Erin Turner (moderator),<br /> Panel: Growth for early stage startups: Danielle Morill, Hiten Shah, Gagan Biyani, Nabeel Hyatt</span>
+                	<span class="agenda-description span10">Erin Turner (moderator), Danielle Morill, Hiten Shah, Nabeel Hyatt,<br />Panel: <i>"Growth for early stage startups"</i></span>
                 </div>
                 <hr>
                 <div class="agenda-entry row">
@@ -400,15 +442,15 @@
                 <hr>
                 <div class="agenda-entry row">
                 	<span class="agenda-time span2">1:15-1:45pm</span>
-                	<span class="agenda-description span10">Mike Greenfield,<br /> <i>"The art of A/B testing"</i></span>
+                	<span class="agenda-description span10">Mike Greenfield,<br /> <i>"The Art of A/B Testing"</i></span>
                 </div>
                 <div class="agenda-entry row">
                 	<span class="agenda-time span2">1:45-2:15pm</span>
-                	<span class="agenda-description span10">Aaron Batalion,<br /> <i>"Living Social: How we went from 0 to 60 million users in 5 years"</i></span>
+                	<span class="agenda-description span10">Aaron Batalion,<br /> <i>"The LivingSocial Story: Always Be Growing"</i></span>
                 </div>
                 <div class="agenda-entry row">
                 	<span class="agenda-time span2">2:15-3:15pm</span>
-                	<span class="agenda-description span10">Aaron Ginn (moderator),<br /> Panel: Harnessing networks for distribution: Blake Commagere, Simon Tisminezky, Matt Humphrey, Jesse Farmer</span>
+                	<span class="agenda-description span10"> Aaron Ginn (moderator), Blake Commagre, Simon Tisminezky, Matt Humphrey, Jesse Farmer,<br />Panel: <i>"Harnessing networks for distribution"</i></span>
                 </div>
                 <hr>
                 <div class="agenda-entry row">
@@ -418,19 +460,15 @@
                 <hr>
                 <div class="agenda-entry row">
                 	<span class="agenda-time span2">3:30-4:30pm</span>
-                	<span class="agenda-description span10">Andrew Chen (moderator),<br /> Panel Growth on mobile: Eric Florenzano, David Lieb, Linda Tong</span>
+                	<span class="agenda-description span10">Andrew Chen (moderator), Eric Florenzano, David Lieb, Linda Tong,<br />Panel <i>"Growth on mobile"</i></span>
                 </div>
                 <div class="agenda-entry row">
                 	<span class="agenda-time span2">4:30-5pm</span>
-                	<span class="agenda-description span10">Elliot Schmukler,<br /> <i>"Identifying which metrics to optimize: stories from LinkedIn and Paypal"</i></span>
+                	<span class="agenda-description span10">Elliot Schmukler,<br /> <i>"So, where should I start optimizing, anyway?"</i></span>
                 </div>
                 <div class="agenda-entry row">
                 	<span class="agenda-time span2">5pm-6pm</span>
-                	<span class="agenda-description span10">Jeremy Liew (moderator),<br /> Panel: Building a culture & skill set to get results: Josh Elman, Stan Chudnovsky, Greg Tseng</span>
-                </div>
-                <div class="agenda-entry row">
-                	<span class="agenda-time span2">6-7:30pm</span>
-                	<span class="agenda-description span10">Erin & Gagan,<br /> Closing remarks & Happy Hour</span>
+                	<span class="agenda-description span10">Jeremy Liew (moderator), Josh Elman, ChenLi Wang, Yee Lee,<br /> Panel: <i>"Building a culture & skill set to get results"</i></span>
                 </div>
                 </div>
 	
@@ -445,7 +483,7 @@
             <script src="http://code.jquery.com/jquery-latest.js"></script>
             <script src="js/bootstrap.min.js"></script>
             <script type="text/javascript" src="js/jquery.serialScroll-min.js"></script>
-            <script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+            <script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
             <script type="text/javascript">
                 jQuery('.speakers_scroll').serialScroll({
                                                         items:'div.speaker',
