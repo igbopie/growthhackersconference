@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+    
+    
+    <head>
+        <meta charset="utf-8">
+            <title>Growth Hackers Conference</title>
+            
+            <meta name="description" content="
+            Take a look at the first ever Growth Hacker's conference on Oct 26th.
+            
+            Growth hacking is disrupting marketing as we know it.
+            
+            At consumer Internet companies big and small, the drive to find scalable and repeatable ways to gain customers is blurring the lines between marketing, product management, and engineering. We're seeing a new role emerge across Silicon Valley: the 'growth hacker' and entire growth teams are combining quantitative direct marketing techniques, data modeling, relentless testing, and the harnessing of distribution existing networks. Facebook, Twitter, LinkedIn, and Airbnb are just a few companies who've grown to millions of users with this new breed of marketers leading the charge.
+            
+            Growth Hackers Conference is a event for technology entrepreneurs, marketers, developers, and investors to learn from the best growth hackers in Silicon Valley.
+            
+            Guests will hear from the best growth hackers in the business, including the founders of the growth teams at Facebook and Twitter, the co-founder and CTO of LivingSocial, the CEO of KISSMetrics and other leading thinkers and entrepreneurs. Our speakers will cover everything from how to make sure the right growth engine is embedded at the core of a product to how they've skyrocketed customer numbers once product-market fit is already working.
+            
+            Join co-hosts Erin Turner and Gagan Biyani on Friday, October 26 at the Quadrus Conference Center in Menlo Park to hear from speakers with track records of success in building businesses using growth hacking techniques.
+            
+            Light breakfast, lunch, afternoon break and happy hour will be part of the agenda.  More details coming soon." />
+            <meta name="author" content="Ignacio Bona" />
+            <link rel="shortcut icon" href="/favicon.ico" />
+            
+            <meta property="og:title" content="Growth Hacker Conference"/>
+            <meta property="og:image" content="http://growthhackersconference.com/logos/logo.png"/>
+            <meta property="og:url" content="http://growthhackersconference.com"/>
+            <meta property="og:site_name" content="Growth Hacker Conference"/>
+            <meta property="og:description" content="Take a look at the first ever Growth Hacker's conference on Oct 26th. "/>
+            <meta property="fb:admins" content="ignaciobona"/>
+            
+            
+            <link href="css/bootstrap.css" rel="stylesheet">
+                <style type="text/css">
+                    body {
+                        padding-top: 60px;
+                        padding-bottom: 40px;
+                        background: url('img/bg.png') repeat;
+                    }
+                    
+                    .speaker img {
+                        display: block;
+                        border: 1px solid #AAA;
+                        width: 160px;
+                    }
+                    .speaker .name {
+                        float: right;
+                        margin: 0 0 0 0;
+                        font-size: 16px;
+                        width: 125px;
+                    }
+                    .speaker .name small{
+                        color: #adadad;
+                    }
+                    .speaker {
+                        float: left;
+                        width: 300px;
+                        margin-right: 20px;
+                        margin-bottom: 20px;
+                    }
+                    .speakers_home .speaker {
+                        margin: 0 10px;
+                    }
+                    .speakers_scroll {
+                        overflow: hidden;
+                    }
+                    
+                    .speakers_home {
+                        width: 8000px;
+                    }
+                    
+                    .speakers_nav {
+                        width: 30px;
+                        height: 30px;
+                        margin: -20px 0 0;
+                        display: block;
+                        background: url(img/arrows.png) no-repeat 0 0;
+                        position: absolute;
+                        top: 50%;
+                        cursor: pointer;
+                        text-indent: -9999px;
+                    }
+                    .speaker_next {
+                        background-position: 100% 0;
+                        right: -20px;
+                    }
+                    .speaker_prev {
+                        left: -20px;
+                    }
+                    .sponsors{
+	                    overflow:auto;
+                    }
+                    .sponsors img{
+                        height:45px;
+                        margin-left:30px;
+                        float:left;
+                        
+                    }
+                    .sponsors img.big{
+	                    
+                        height:80px;
+                    }
+                    h3,h4,.blue{
+                        color:#00a6e9;
+                    }
+                    hr{
+                        margin:10px 0;
+                    }
+                    .agenda-time{
+	                    text-align: right;
+	                }
+	                .agenda-entry{
+		                margin-bottom: 10px;
+	                }
+	                .lead.agenda{
+		                font-size: 18px;
+	                }
+                    </style>
+                <!--link href="css/bootstrap-responsive.css" rel="stylesheet"-->
+                    
+                    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+                    <!--[if lt IE 9]>
+                     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+                     <![endif]-->
+                    
+                    
+                    
+                    </head>
+    <body>
+        
+        
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+					<span class="brand ">
+						Growth Hacker Conference
+						
+					</span>
+					<small class="navbar-text pull-left">Brought to you by <a onclick="$.scrollTo('#cohosts-section',1000,{offset:-30});">Gagan Biyani</a> and <a onclick="$.scrollTo('#cohosts-section',1000,{offset:-30});">Erin Turner</a></small>
+					<div class="pull-right">	              
+						<a class="btn btn-primary" target="_blank" href="https://docs.google.com/spreadsheet/viewform?formkey=dF82TlVXSGxrSE4taDJHUWZIOGxWSlE6MQ#gid=0" >Volunteer</a>
+					</div>
+					
+					<span class="pull-right" style="padding: 10px 20px 10px;"><!-- AddThis Button BEGIN -->
+					    <div class="addthis_toolbox addthis_default_style" style="height:20px;overflow:hidden;">
+					        <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+					        <a class="addthis_button_tweet"   tw:text="Check out the first ever Growth Hacker's conference #gh #tech "></a>
+					    </div>
+					    <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+					    <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-505d17031e61eb07"></script>
+					    <!-- AddThis Button END -->
+					</span>
+	                    	    
+                   
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            
+            <!-- Main hero unit for a primary marketing message or call to action -->
+            
+                <div class="hero-unit" style="padding-top:10px;padding-bottom:10px;">
+                    <div class="row-fluid">
+                        
+                        <div class="span5">
+                            <img src="logos/logo.png" alt="Growth Hackers Conference" />
+                        </div>
+                        <div class="span7">
+                            <div style="text-align:right;margin-bottom:60px;margin-left:-10px;">
+                             
+                                
+                                <h4 style="margin-bottom:10px;font-size:34px;">LEARN GROWTH HACKING</h4>
+                                <div style="font-size:27px;letter-spacing:0px">Check out the Online Course on Udemy</div>
+                            </div>
+                            
+                            
+                            <p><a class="btn btn-primary btn-large pull-right" href="http://www.udemy.com/growth-hackers-conference/?couponCode=GHCdotCOM" target="_blank" style="font-size:36px;font-weight:bold;">GET THE COURSE NOW</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <div class="lead" style="font-size:26px;font-weight:bold;text-align:center">Learn from leaders at Facebook, Twitter, LinkedIn, LivingSocial, and others</div>
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup" style="text-align:center;font-size:18px">
+                <form action="http://growthhackersconference.us1.list-manage1.com/subscribe/post?u=4cab1089121046e254a0c19b9&amp;id=e48b584b09" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <span >Email me with updates, videos and growth hacking tips:</span>
+                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"  placeholder="email" style="margin-top:6px;" >
+                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn" style="margin-top:-3px;">
+                </form>
+            </div>
+            
+            <!--End mc_embed_signup-->
+                
+               
+                
+                <hr>
+                <h3>Instructors</h3>
+                
+                <div class="speakers_wrapper" style="margin-bottom:30px;position: relative;">
+                    <a href="#" class="speakers_nav speaker_prev">Previous</a>
+                    <a href="#" class="speakers_nav speaker_next">Next</a>
+                    
+                    <div class="speakers_scroll">
+                        <div class="speakers_home">
+                            
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Chamath Palihapitiya</span>
+                                    <br /><small>Founder, Facebook Growth Team</small>
+                                    <br /><small>Founder, Social+Capital Partnership </small>
+                                </div>
+                                <img src="speakers/chamath-palihapitiya.jpg" width="160" />
+                            </div>
+                            
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Sean Ellis</span>
+                                    <br /><small>Coined the term "<a href="http://startup-marketing.com/deconstructing-startup-growth/">Growth Hacker</a>"</small>
+                                    <br /><small>Qualaroo, Dropbox, LogMeIn, Xobni</small>
+                                </div>
+                                <img src="speakers/sean-ellis.jpg" width="160" />
+                            </div>
+                            
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Josh Elman </span>
+                                    <br /><small>Founder, Twitter Growth Team</small>
+                                    <br /><small>Greylock, Facebook, Zazzle, LinkedIn   </small>
+                                </div>
+                                <img src="speakers/josh-elman.jpg" width="160" />
+                            </div>
+                            
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Andrew Chen</span>
+                                    <br /><small><a href="http://andrewchen.co/2012/04/27/how-to-be-a-growth-hacker-an-airbnbcraigslist-case-study/">Growth hacker blogger</a></small>
+                                    <br /><small>AppSumo, Kiva, Votizen, Qik </small>
+                                </div>
+                                <img src="speakers/andrew-chen.jpg" width="160" />
+                            </div>
+                            
+                            
+                            
+                            <div class="speaker">
+                                <div class="name">
+                                    <span> Mike Greenfield</span>
+                                    <br /><small>Growth Hacker in Residence, 500 Startups</small>
+                                    <br /><small>Circle of Moms, TeamRankings, LinkedIn</small>
+                                </div>
+                                <img src="speakers/mike-greenfield.jpg" width="160" />
+                            </div>
+                            
+                            
+                            
+                            
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Aaron Batalion</span>
+                                    <br /><small>Co-founder and CTO, LivingSocial</small>
+                                    <br /><small>60 million users in 5 years</small>
+                                </div>
+                                <img src="speakers/aaron-batalion.jpg" width="160" />
+                            </div>
+                            
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Aaron Ginn  </span>
+                                    <br /><small>Growth Hacker, Mitt Romney 2012</small>
+                                    <br /><small>TechCrunch Series on "Growth Hacking" </small>
+                                </div>
+                                <img src="speakers/aaron-ginn.jpg" width="160" />
+                            </div>
+                            
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Hiten Shah</span>
+                                    <br /><small>CEO, KISSMetrics</small>
+                                </div>
+                                <img src="speakers/hiten-shah.jpg" width="160" />
+                            </div>
+                            
+                            
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Danielle Morrill</span>
+                                    <br /><small>Co-founder and CEO, Refer.ly</small>
+                                    <br /><small>Twilio, Pelago, 500 Startups</small>
+                                </div>
+                                <img src="speakers/danielle-morrill2.jpg" width="160" />
+                            </div>
+                            
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Elliot Schmukler</span>
+                                    <br /><small>LinkedIn Membership Growth Team</small>
+                                    <br /><small>eBay, Microsoft</small>
+                                </div>
+                                <img src="speakers/elliot-schmukler.jpg" width="160" />
+                            </div>
+                            
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Nabeel Hyatt</span>
+                                    <br /><small>Venture Partner, Spark Capital; Zynga; Conduit Labs; Ambient Devices</small>
+                                </div>
+                                <img src="speakers/nabeel-hyatt.jpg" width="160" />
+                            </div>
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Blake Commagere</span>
+                                    <br /><small>Founder and CEO, Media Spike; Founder, DeezGames, Ohai, and Mogad</small>
+                                </div>
+                                <img src="speakers/blake-commagere.jpg" width="160" />
+                            </div>
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Simon Tisminezky</span>
+                                    <br /><small>CEO, SpeedDate</small>
+                                </div>
+                                <img src="speakers/simon-tisminezky.jpeg" width="160" />
+                            </div>
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Matt Humphrey</span>
+                                    <br /><small>VP of Merchandising, Reardon Commerce; HomeRun, Kickball Labs, Cloudant</small>
+                                </div>
+                                <img src="speakers/matt-humphrey.jpg" width="160" />
+                            </div>    
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Jesse Farmer</span>
+                                    <br /><small>Dev Bootcamp, The Awesome Foundation</small>
+                                </div>
+                                <img src="speakers/jesse-farmer.jpg" width="160" />
+                            </div>  
+                               
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Eric Florenzano</span>
+                                    <br /><small>Twitter; Co-founder, Boilerplate; Mochi Media</small>
+                                </div>
+                                <img src="speakers/eric-florenzano.jpg" width="160" />
+                            </div>    
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>David Lieb</span>
+                                    <br /><small>Co-founder and CEO, Bump Technologies; Texas Instruments</small>
+                                </div>
+                                <img src="speakers/david-lieb.jpg" width="160" />
+                            </div> 
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Linda Tong</span>
+                                    <br /><small>Tapjoy; Google</small>
+                                </div>
+                                <img src="speakers/linda-tong.jpg" width="160" />
+                            </div>
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Jeremy Liew</span>
+                                    <br /><small>Managing Director, Lightspeed Venture Partners; Netscape; AOL</small>
+                                </div>
+                                <img src="speakers/jeremy-liew.jpg" width="160" />
+                            </div>
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>ChenLi Wang</span>
+                                    <br /><small>Business Operations, Dropbox; Workday</small>
+                                </div>
+                                <img src="speakers/chenli-wang.jpg" width="160" />
+                            </div> 
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Yee Lee</span>
+                                    <br /><small>Co-founder and CTO, One Jackson; Google; Katango; Skype</small>
+                                </div>
+                                <img src="speakers/yee-lee.jpg" width="160" />
+                            </div> 
+                            
+                            <div class="speaker">
+                                <div class="name">
+                                    <span>Joe Zadeh</span>
+                                    <br /><small>Product Lead at Airbnb</small>
+                                </div>
+                                <img src="speakers/joe-zadeh.jpg" width="160" />
+                            </div>                                                 
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h3 >Sponsors <a class="btn btn-link" style="font-weight:normal" target="_blank" href="https://docs.google.com/spreadsheet/viewform?formkey=dGRJN1c1OFhXQkZicENzbmZ1MlZSOXc6MA#gid=0" >Interested in sponsoring?</a> </h3>
+                
+                
+
+                <div class="sponsors">
+                
+                    <img src="sponsors/sparkcapital.png" alt="sparkcapital" class="big"/>
+                    <img src="sponsors/lightspeed2.jpg" alt="lightspeed" class="big"/>
+                    <img src="sponsors/clarity.png" alt="clarity"/>
+                    <img src="sponsors/udemy.png" alt="udemy"/>
+                </div>
+                
+                <br /><br />
+                <hr id="cohosts-section">
+                <h3 >Co-Hosts</h3>
+                <div class="row">
+	                <div class="span3">
+	                	<img src="speakers/gagan.jpg" class="img-polaroid" />
+	                </div>
+	                <div class="span3">
+	                	<p><b>Gagan Biyani</b> is a technology enthusiast and entrepreneur. He is co-founder of Udemy, a leading marketplace for online education that has been featured in Bill Gates' annual letter, the New York Times, the Today Show, and more than 50 other media outlets. Prior to leading user acquisition and business operations at Udemy, Gagan wrote for TechCrunch covering mobile technology. He has also held positions at Accenture and Microsoft.
+	                	</p>
+	                </div>
+	                <div class="span3">
+	                	<img src="speakers/erin-turner.jpg" class="img-polaroid" />
+	                </div>
+	                <div class="span3">
+	                	<p><b>Erin Turner</b> is an entrepreneur and product person in commerce, games, & social media. Currently she is product director at Wildfire (now a division of Google), the leading social media marketing platform. Previously Erin founded and led two startups (Crave and Gigabeat) and spent 8 years in the game industry at Electronic Arts (EA), Kixeye, and Trion Worlds.</p>
+	                </div>
+                </div>
+                <hr>
+                <h3 >Agenda</h3>
+                <div class="lead agenda">
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">9:30-9:45</span>
+                	<span class="agenda-description span10">Erin Turner & Gagan Biyani (conference co-hosts),<br /> Opening Remarks</span>
+                </div>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">9:45-10:30</span>
+                	<span class="agenda-description span10">Chamath Palihapitiya,<br /> Keynote: <i>"How we put Facebook on the path to 1 billion users"</i></span>
+                </div>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">10:30-11:15</span>
+                	<span class="agenda-description span10">Sean Ellis,<br /> Keynote: <i>"Building an Authentic, Effective Growth Engine for your Business"</i></span>
+                </div>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">11:15-12:15</span>
+                	<span class="agenda-description span10">Erin Turner (moderator), Danielle Morrill, Hiten Shah, Nabeel Hyatt, Joe Zadeh,<br />Panel: <i>"Growth for early stage startups"</i></span>
+                </div>
+                <hr>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">12:15-1:15</span>
+                	<span class="agenda-description span10">Lunch</span>
+                </div>
+                <hr>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">1:15-1:45pm</span>
+                	<span class="agenda-description span10">Mike Greenfield,<br /> <i>"The Art of A/B Testing"</i></span>
+                </div>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">1:45-2:15pm</span>
+                	<span class="agenda-description span10">Aaron Batalion,<br /> <i>"The LivingSocial Story: Always Be Growing"</i></span>
+                </div>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">2:15-3:15pm</span>
+                	<span class="agenda-description span10"> Aaron Ginn (moderator), Blake Commagere, Simon Tisminezky, Matt Humphrey, Jesse Farmer,<br />Panel: <i>"Harnessing networks for distribution"</i></span>
+                </div>
+                <hr>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">3:15-3:30pm</span>
+                	<span class="agenda-description span10">Break</span>
+                </div>
+                <hr>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">3:30-4:30pm</span>
+                	<span class="agenda-description span10">Andrew Chen (moderator), Eric Florenzano, David Lieb, Linda Tong,<br />Panel: <i>"Growth on mobile"</i></span>
+                </div>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">4:30-5pm</span>
+                	<span class="agenda-description span10">Elliot Schmukler,<br /> <i>"So, where should I start optimizing, anyway?"</i></span>
+                </div>
+                <div class="agenda-entry row">
+                	<span class="agenda-time span2">5pm-6pm</span>
+                	<span class="agenda-description span10">Jeremy Liew (moderator), Josh Elman, ChenLi Wang, Yee Lee,<br /> Panel: <i>"Building a culture & skill set to get results"</i></span>
+                </div>
+                </div>
+	
+                <br />
+                <hr>
+                <footer>
+                    <p>© Growth Hackers Conference 2012. Coded with love by <a href="http://www.ignaciobona.com/" target="_blank">Ignacio Bona</a></p>
+                </footer>
+                
+            </div> <!-- /container -->
+            
+            <script src="http://code.jquery.com/jquery-latest.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="js/jquery.serialScroll-min.js"></script>
+            <script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+            <script type="text/javascript">
+                jQuery('.speakers_scroll').serialScroll({
+                                                        items:'div.speaker',
+                                                        prev:'a.speaker_prev',
+                                                        next:'a.speaker_next',
+                                                        axis: 'x',
+                                                        step: 1,
+                                                        offset:0,
+                                                        start:2, //as we are centering it, start at the 2nd
+                                                        duration:800,
+                                                        force:true,
+                                                        stop:true,
+                                                        lock:true,
+                                                        cycle:true, //don't pull back once you reach the end
+                                                        /*easing:'easeOutQuart', //use this easing equation for a funny effect*/
+                                                        jump: false //click on the images to scroll to them
+                                                        });
+                window.slide = 1
+                function autoscroll_speakers(){
+                    jQuery('a.speaker_next').click()
+                }
+                setInterval(autoscroll_speakers,3000);
+                
+                </script>
+                <script type="text/javascript">
+				
+				  var _gaq = _gaq || [];
+				  _gaq.push(['_setAccount', 'UA-35059049-1']);
+				  _gaq.push(['_trackPageview']);
+				
+				  (function() {
+				    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				  })();
+				
+				</script>
+            </body>
+</html>
